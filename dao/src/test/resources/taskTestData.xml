@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+
+    <task id="4" name="Task for contact 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" contact_id="1" period="2" deal_id="2"
+          company_id="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+
+    <task id="5" name="Task for company 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" company_id="1" period="2" task_type_id = "1"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+
+    <task id="6" name="Task for company 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" company_id="1" period="2" task_type_id = "1"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+
+    <task id="7" name="Task for company 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" company_id="1" period="2" task_type_id = "1"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+
+    <task id="8" name="Task for deal 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+
+    <task id="9" name="Task for deal 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+
+    <task id="10" name="Task for deal 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+
+    <task id="11" name="Task for deal 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+
+
+    <task id="12" name="Task for deal 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+    <task id="13" name="Task for deal 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+    <task id="14" name="Task for deal 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+    <task id="15" name="Task for deal 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+    <task id="16" name="Task for deal 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+    <task id="17" name="Task for deal 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+    <task id="18" name="Task for deal 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+    <task id="19" name="Task for deal 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+    <task id="20" name="Task for deal 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+    <task id="21" name="Task for deal 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+    <task id="22" name="Task for deal 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+    <task id="23" name="Task for deal 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+    <task id="24" name="Task for deal 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+    <task id="25" name="Task for deal 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+    <task id="26" name="Task for deal 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+    <task id="27" name="Task for deal 1" finish_date="2016-04-12 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+    <task id="28" name="Task for deal 1" finish_date="2016-04-13 15:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+    <task id="29" name="Task for deal 1" finish_date="2016-04-14 14:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+    <task id="30" name="Task for deal 1" finish_date="2016-04-15 16:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+    <task id="31" name="Task for deal 1" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" deal_id="1" period="2" task_type_id = "2"
+          created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+
+
+
+</dataset>

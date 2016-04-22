@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+
+    <person id="5" name="Andrey Yarmolenko" password="yar" email="yar@ukr.net" phone_mobile="+380963451234"
+            phone_work="+380440912938" lang_id="1" role_id="1" note="strengths: communication with the customer"
+            date_create="2016-09-03 09:15:12.0" deleted="false"/>
+    <person id="6" name="Yevgeny Khacheridi" password="hac" email="haceridi@gmail.com" phone_mobile="+380975451274"
+            phone_work="+380441912638" lang_id="2" role_id="1" note="strengths: Headers"
+            date_create="2016-09-03 09:15:12.0" deleted="false"/>
+
+    <task id="4" name="write test for DAO" finish_date="2016-12-03 18:00:00.0" responsible_id="1"
+          description="I should write test for each DAO method" period="1" deal_id="[null]"  company_id="[null]"
+          contact_id="1" task_type_id = "1" created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+</dataset>

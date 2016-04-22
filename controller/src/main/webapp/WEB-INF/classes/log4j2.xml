@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+
+    <Properties>
+        <Property name="folder">logs</Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout>
+                <Pattern>%d{HH:mm:ss.SSS} [%t] %c{1}:%M:%L %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+        </Console>
+        <RollingFile name="model" fileName="${folder}/model/model.log"
+                     filePattern="${folder}/model/model-%d{yyyy-MM-dd}.log">
+            <PatternLayout>
+                <Pattern>%d{HH:mm:ss.SSS} [%t] %c{1}:%M:%L %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+
+        <RollingFile name="controller" fileName="${folder}/controller/controller.log"
+                     filePattern="${folder}/controller/controller-%d{yyyy-MM-dd}.log">
+            <PatternLayout>
+                <Pattern>%d{HH:mm:ss.SSS} [%t] %c{1}:%M:%L %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+
+        <RollingFile name="dao" fileName="${folder}/dao/dao.log"
+                     filePattern="${folder}/dao/dao-%d{yyyy-MM-dd}.log">
+            <PatternLayout>
+                <Pattern>%d{HH:mm:ss.SSS} [%t] %c{1}:%M:%L %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <!-- Model Logger -->
+        <Logger name= "com.becomejavasenior.model" level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="model"/>
+        </Logger>
+
+        <!-- Controller Logger -->
+        <Logger name= "com.becomejavasenior.controller" level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="controller"/>
+        </Logger>
+
+        <!-- DAO Logger -->
+        <Logger name= "com.becomejavasenior.dao" level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="dao"/>
+        </Logger>
+
+        <!-- Root Logger -->
+        <Root level="warn">
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+
+
+</Configuration>

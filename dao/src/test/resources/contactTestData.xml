@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+
+    <contact id="5" name="Taras Stepanenko" phone="+3804825353956" email="step@ukr.net" skype="step89"
+             position="marketing" responsible_id="2" phone_type_id="2" company_id="2" created_by="2"
+             date_create="2016-11-03 13:52:21.0" deleted="false"/>
+
+    <task id="4" name="write test for DAO" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="I should write test for each DAO method" period="1" deal_id="[null]"  company_id="[null]"
+          contact_id="5" task_type_id = "1" created_by="1" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+</dataset>

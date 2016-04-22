@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+
+    <currencies id="1" name="hryvna" active_currency="true"/>
+    <currencies id="2" name="dollar" active_currency="false"/>
+    <currencies id="3" name="Ruble" active_currency="false"/>
+    <currencies id="4" name="Tenge" active_currency="false"/>
+    <currencies id="5" name="lei" active_currency="false"/>
+    <currencies id="6" name="manat" active_currency="false"/>
+    <currencies id="7" name="drama" active_currency="false"/>
+    <currencies id="8" name="scrip" active_currency="false"/>
+
+
+
+    <phone_type id="1" type_name="work"/>
+    <phone_type id="2" type_name="direct work"/>
+    <phone_type id="3" type_name="mobile"/>
+    <phone_type id="4" type_name="fax"/>
+    <phone_type id="5" type_name="home"/>
+    <phone_type id="6" type_name="other"/>
+
+    <role id="1" role_name="user"/>
+    <role id="2" role_name="administrator"/>
+
+    <lang id="1" lang="Ukrainian"/>
+    <lang id="2" lang="Russian"/>
+    <lang id="3" lang="English"/>
+
+    <stage id="1" name="initial contact"/>
+    <stage id="2" name="talks"/>
+    <stage id="3" name="decide"/>
+    <stage id="4" name="approval of the contract"/>
+    <stage id="5" name="successfully implemented"/>
+    <stage id="6" name="is closed and is not implemented"/>
+
+    <task_type id="1" type_name="Follow-Up"/>
+    <task_type id="2" type_name="Meeting"/>
+
+
+    <person id="1" name="Andrey Yarmolenko" password="yar" email="yar@ukr.net" phone_mobile="+380963451234"
+          phone_work="+380440912938" lang_id="1" role_id="1" note="strengths: communication with the customer"
+          date_create="2016-09-03 09:15:12.0" deleted="false"/>
+    <person id="2" name="Yevgeny Khacheridi" password="hac" email="haceridi@gmail.com" phone_mobile="+380975451274"
+          phone_work="+380441912638" lang_id="2" role_id="1" note="strengths: Headers"
+          date_create="2016-09-03 09:15:12.0" deleted="false"/>
+
+    <company id="1" name="Christmas trees" responsible_id="1" web="elki.com.ua" email="info@elki.com.ua"
+             adress="Ukraine, Kiev, Institutskaya 3" phone="380 440 313 936" phone_type_id="1" created_by="1"
+             date_create="2016-10-03 08:10:00.0" deleted="false"/>
+    <company id="2" name="Stick" responsible_id="2" web="palki.com.ua" email="info@palki.com.ua"
+             adress="Ukraine, Odessa, Deribasovskaya 15" phone="380 482 343 830" phone_type_id="2" created_by="2"
+             date_create="2016-10-03 12:14:40.0" deleted="false"/>
+
+    <contact id="1" name="Andriy Pyatov" phone="+380442343976" email="pyatov@ukr.net" skype="pyatov84"
+             position="manager" responsible_id="1" phone_type_id="2" company_id="1" created_by="1"
+             date_create="2016-10-03 13:51:21.0" deleted="false"/>
+    <contact id="2" name="Taras Stepanenko" phone="+3804825353956" email="step@ukr.net" skype="step89"
+             position="marketing" responsible_id="2" phone_type_id="2" company_id="2" created_by="2"
+             date_create="2016-11-03 13:52:21.0" deleted="false"/>
+
+
+    <deal id="1" name="supply bags" budget="25000.00" responsible_id="1" stage_id="1" company_id="1" created_by="1"
+          date_create="2016-10-03 17:00:00.0" deleted="false"/>
+    <deal id="2" name="delivery purses" budget="15000.00" responsible_id="2" stage_id="4" company_id="2" created_by="2"
+          date_create="2016-10-03 16:00:00.0" deleted="false"/>
+    <deal_contact deal_id="1" contact_id="1"/>
+    <deal_contact deal_id="2" contact_id="2"/>
+
+    <note id="1" text="in the short term to try to make a deal" contact_id="1" deal_id="1" company_id="1" created_by="1"
+          date_create="2016-11-03 12:20:00.0"/>
+    <note id="2" text="to conclude a contract for a maximum amount" contact_id="2" deal_id="2" company_id="2"
+          created_by="2" date_create="2016-11-03 11:10:00.0"/>
+
+    <file id="1" path="d:\crm\files\deal1\file1" contact_id="1" deal_id="1" notes_id="1" company_id="1" created_by="1"
+          date_create="2016-11-03 12:30:00.0"/>
+    <file id="2" path="d:\crm\files\deal2\file1" contact_id="2" deal_id="2" notes_id="2" company_id="2" created_by="2"
+          date_create="2016-11-03 11:20:00.0"/>
+
+
+
+    <tag id="1" name="# Firs" created_by="1" date_create="2016-11-03 13:30:00.0"/>
+    <tag id="2" name="marketer #" created_by="2" date_create="2016-11-03 13:20:00.0"/>
+    <tag id="3" name="# bags" created_by="1" date_create="2016-11-03 13:35:00.0"/>
+    <tag id="4" name="# purses" created_by="2" date_create="2016-03-11 13:25:00.0"/>
+    <tag_contact_company tag_id="1" contact_id="1" company_id="1"/>
+    <tag_contact_company tag_id="2" contact_id="2" company_id="2"/>
+    <tag_deal tag_id="3" deal_id="1"/>
+    <tag_deal tag_id="4" deal_id="2"/>
+
+    <task id="1" name="Meet" finish_date="2016-12-03 18:00:00.0" responsible_id="1"
+          description="to meet personally with the customer" period="2" deal_id="1"  company_id="[null]"
+          contact_id="[null]" task_type_id = "1" created_by="1" date_create="2016-03-11 17:50:00.0" done="false"
+          deleted="false"/>
+    <task id="2" name="to prepare the agreement" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="to make the contract and send it to the client" period="2" deal_id="[null]"  company_id="1"
+          contact_id="[null]" task_type_id = "2" created_by="2" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+    <task id="3" name="write test for DAO" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="I should write test for each DAO method" period="1" deal_id="[null]"  company_id="[null]"
+          contact_id="1" task_type_id = "1" created_by="1" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+
+</dataset>

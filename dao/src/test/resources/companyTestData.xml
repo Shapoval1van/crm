@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+
+    <company id="5" name="Stick" responsible_id="2" web="palki.com.ua" email="info@palki.com.ua"
+             adress="Ukraine, Odessa, Deribasovskaya 15" phone="380 482 343 830" phone_type_id="2" created_by="2"
+             date_create="2016-10-03 12:14:40.0" deleted="false"/>
+
+    <task id="4" name="write test for DAO" finish_date="2016-12-03 18:00:00.0" responsible_id="2"
+          description="I should write test for each DAO method" period="1" deal_id="[null]"  company_id="5"
+          contact_id="[null]" task_type_id = "1" created_by="1" date_create="2016-03-11 17:00:00.0" done="false" deleted="false"/>
+</dataset>

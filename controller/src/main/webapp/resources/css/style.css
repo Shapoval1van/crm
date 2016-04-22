@@ -1,0 +1,95 @@
+
+.task-card {
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.task-holder {
+    border: 2px solid gainsboro;
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
+}
+
+.task-todo-container {
+    width: 660px;
+}
+
+table.calendar > tbody > tr > td.time-in-table {
+    vertical-align: middle;
+    width: 30px;
+}
+
+table.calendar tbody > tr{
+    margin-bottom: 0;
+    width: auto;
+}
+
+table.calendar > thead > tr > th {
+    text-align: center;
+}
+table.calendar > tbody > tr > td.no-events {
+    background-color: #F4FFF5;
+    padding: 3px;
+}
+table.calendar > tbody > tr > td.has-events {
+    min-width: 300px;
+    background-color: #effcff;
+}
+
+table.calendar > tbody > tr > td > div {
+    padding: 1px;
+    min-height: 40px;
+    margin-bottom: 4px;
+    background-color: #e0f8ff;
+    color: #4D4B4B;
+    border: 1px solid #999999;
+    border-radius: 10px 10px;
+    -moz-border-radius: 10px 10px;
+    -webkit-border-radius: 10px 10px;
+    box-shadow: 2px 2px 3px #999;
+    -webkit-box-shadow: 2px 2px 3px #999;
+    -moz-box-shadow: 2px 2px 3px #999;
+    float: left;
+}
+table.calendar > tbody > tr > td > div.overdue-task {
+    background-color: #ffe7d6;
+}
+
+table.calendar > tbody > tr > td > div.today-task {
+    background-color: #feffac
+}
+
+table.calendar > tbody > tr > td > div.tomorrow-task {
+    background-color: #d8ffb2
+}
+
+.form-horizontal .form-group {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.prompt{
+    line-height: 0.7;
+}
+
+.block{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.divider-customer{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.btn-label {position: relative;left: -12px;display: inline-block;padding: 6px 12px;background: rgba(0,0,0,0.15);border-radius: 3px 0 0 3px;}
+.btn-labeled {padding-top: 0;padding-bottom: 0;}
+.input-group { margin-bottom:10px; }
+.separator { border-right: 1px solid #dfdfe0; }
+.facebook,.twitter { min-width:170px; }
+.facebook { background-color:#354E84;color:#fff; }
+.twitter { background-color:#00A5E3;color:#fff; }
+.facebook:hover,.twitter:hover { color:#fff; }
+
